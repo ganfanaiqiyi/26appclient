@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/remen/remen",
+			"navigationStyle":"custom"
+		},
+		{
+			"path": "pages/yingpian/yingpian",
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/douyin/douyin",
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/jinqu/jinqu",
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/chigua/chigua",
+			"navigationStyle": "custom"
+		},
+		{
+			"path": "pages/wode/wode",
+			"navigationStyle": "custom"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#171b25",
+		"backgroundColor": "#141414"
+	},
+	"tabBar": {
+		"color": "#fff9",
+		"selectedColor": "#facc51",
+		"backgroundColor": "#202020",
+		"borderStyle": "#202020",
+		"list": [{
+				"iconPath": "/static/images/t1.png",
+				"selectedIconPath": "/static/images/t11.png",
+				"pagePath": "pages/remen/remen",
+				"text": "热门"
+			},
+			{
+				"iconPath": "/static/images/t2.png",
+				"selectedIconPath": "/static/images/t22.png",
+				"pagePath": "pages/yingpian/yingpian",
+				"text": "影片"
+			},
+			{
+				"iconPath": "/static/images/t3.png",
+				"selectedIconPath": "/static/images/t33.png",
+				"pagePath": "pages/douyin/douyin",
+				"text": "抖音"
+			},
+			{
+				"iconPath": "/static/images/t4.png",
+				"selectedIconPath": "/static/images/t44.png",
+				"pagePath": "pages/jinqu/jinqu",
+				"text": "禁区"
+			},
+			{
+				"iconPath": "/static/images/t5.png",
+				"selectedIconPath": "/static/images/t55.png",
+				"pagePath": "pages/chigua/chigua",
+				"text": "吃瓜"
+			},
+			{
+				"iconPath": "/static/images/t6.png",
+				"selectedIconPath": "/static/images/t66.png",
+				"pagePath": "pages/wode/wode",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
